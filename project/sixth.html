@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+    <h1 style="color: teal; text-align: center;"><b>DOCTORS ON THE DUTY IN THE HOSPITAL</b></h1>
+    {% load static %}
+    <div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="{% static 'anu.jpg' %}" class="img-fluid" alt="Image 1">
+            <p><b style="color: orange;">ANUSREE NAIR</b></p>
+            <p><b style="color: orange;">CHILD SPECIALIST</b></p>
+            <a href="/seventeenth" class="btn btn-warning"><b style="color: white;">MEET DOCTOR</b></a><br><br>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'sam.jpg' %}" class="img-fluid" alt="Image 2">
+            <p><b style="color: aqua;">SAMYUKTHA MENON</b></p>
+            <p><b style="color: aqua;">GYNECOLOGY SPECIALIST</b></p>
+            <a href="/eighteenth" class="btn btn-info"><b>MEET DOCTOR</b></a>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'kaly.jpg' %}" class="img-fluid" alt="Image 3">
+            <p><b style="color: blue;">KALYANI PRIYADHARSHAN</b></p>
+            <p><b style="color: blue;">DENTAL SPECIALIST</b></p>
+            <a href="/nineteenth" class="btn btn-primary"><b>MEET DOCTOR</b></a>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'dhanya.jpg' %}" class="img-fluid" alt="Image 4">
+            <p><b style="color: red;">NAVYA NAIR</b></p>
+            <p><b style="color: red;">SKIN SPECIALIST</b></p>
+            <a href="/twentieth" class="btn btn-danger"><b>MEET DOCTOR</b></a>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'chalu.jpg' %}" class="img-fluid" alt="Image 2">
+            <p><b style="color: green;">DULQUER SALMAAN</b></p>
+            <p><b style="color: green;">CARDIOLOGY SPECIALIST</b></p>
+            <a href="/twentifirst" class="btn btn-success"><b>MEET DOCTOR</b></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

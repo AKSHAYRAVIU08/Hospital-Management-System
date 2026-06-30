@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+    <h1 style="color: navy; text-align: center;"><b>MEDICINES AVAILABLE IN THE MEDICAL STORE</b></h1>
+    {% load static %}
+    <div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="{% static 'parace.jpg' %}" class="img-fluid" alt="Image 1">
+            <p><b style="color: blue;">MEDICINE : PARACETAMOL</b></p>
+            <p><b style="color: blue;">DISEASE : FEVER</b></p>
+            <p><b style="color: blue;">PRICE : 15$</b></p>
+            <a href="/nineth" class="btn btn-warning"><b style="color: white;">BOOK MEDICINE</b></a><br><br>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'syrup.jpg' %}" class="img-fluid" alt="Image 2">
+            <p><b style="color: blue;">MEDICINE : SYRUP</b></p>
+            <p><b style="color: blue;">DISEASE : COUGH</b></p>
+            <p><b style="color: blue;">PRICE : 100$</b></p>
+            <a href="/tenth" class="btn btn-warning"><b style="color: white;">BOOK MEDICINE</b></a>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'preg.jpg' %}" class="img-fluid" alt="Image 3">
+            <p><b style="color: yellowgreen;">MEDICINE : PREGNACARE TABLET</b></p>
+            <p><b style="color: yellowgreen;">DISEASE : PREGNANT</b></p>
+            <p><b style="color: yellowgreen;">PRICE : 200$</b></p>
+            <a href="/eleventh" class="btn btn-warning"><b style="color: white;">BOOK MEDICINE</b></a>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'lotion.jpg' %}" class="img-fluid" alt="Image 4">
+            <p><b style="color: yellowgreen;">MEDICINE : LOTION</b></p>
+            <p><b style="color: yellowgreen;">DISEASE : PREGNANT</b></p>
+            <p><b style="color: yellowgreen;">PRICE : 150$</b></p>
+            <a href="/twovelth" class="btn btn-warning"><b style="color: white;">BOOK MEDICINE</b></a>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'teeth.webp' %}" class="img-fluid" alt="Image 4">
+            <p><b style="color: aqua;">MEDICINE : CHEWEL TABLET</b></p>
+            <p><b style="color: aqua;">DISEASE : DENTAL</b></p>
+            <p><b style="color: aqua;">PRICE : 120$</b></p>
+            <a href="/thirteenth" class="btn btn-warning"><b style="color: white;">BOOK MEDICINE</b></a>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'cream.jpg' %}" class="img-fluid" alt="Image 4">
+            <p><b style="color: red;">MEDICINE : TADHEEN CREAM</b></p>
+            <p><b style="color: red;">DISEASE : SKIN PROBLEMS</b></p>
+            <p><b style="color: red;">PRICE : 490$</b></p>
+            <a href="/fourteenth" class="btn btn-warning"><b style="color: white;">BOOK MEDICINE</b></a>
+        </div>
+
+        <div class="col-md-3">
+            <img src="{% static 'metro.jpg' %}" class="img-fluid" alt="Image 1">
+            <p><b style="color: gray;">MEDICINE : METOPROLOL</b></p>
+            <p><b style="color: gray;">DISEASE : HEART DISEASE</b></p>
+            <p><b style="color: gray;">PRICE : 300$</b></p>
+            <a href="/fifteenth" class="btn btn-warning"><b style="color: white;">BOOK MEDICINE</b></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
